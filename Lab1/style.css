@@ -1,0 +1,25 @@
+div.line {
+	border-bottom: solid;
+	border-bottom-width: 1px;
+	margin: 5px;
+	padding: 10px;
+}
+div.content {
+	margin: 10px;
+}
+img {
+	width: 500px;
+
+}
+div.mid{
+	text-align: center;
+}
+div.sprava{
+	text-align: right;
+}
+div.willbered{
+	color: red;
+}
+div.photo {
+	text-align: center;
+}

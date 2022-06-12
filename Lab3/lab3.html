@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Лабораторна робота №3</title>
+</head>
+<body>
+	<div>
+		<h1 class="zagolovok">Лабораторна робота №3</h1>
+	</div>
+	<div class="main">
+		<form action="#" method="get" enctype="multipart/form-data">
+		<table>
+			<tr>
+				<th colspan="2" >
+					Створення персонажу
+				</th>
+			</tr>
+			<tr>
+				<td width="50%">
+					<label  for="name" >Ім'я:</label>
+					
+				</td>
+				<td>
+					<input type="text" required placeholder="Введіть ім'я героя" id="name" name="user_name">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Клас героя:
+				</td>
+				<td>
+					<input type="radio" id="game_class_warrior" name="game_class_warrior">
+					<label for="game_class_warrior">Воїн</label>
+					<br>
+					<input type="radio" id="game_class_wizard" name="game_class_wizard">
+					<label for="game_class_wizard">Чаклун</label>
+					<br>
+					<input type="radio" id="game_class_rogue" name="game_class_rogue"> 
+
+					<label for="game_class_rogue">Розбійник</label>
+
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="place_of_spawn">Точка спавну:</label>
+				</td>
+				<td>
+					<select id="place_of_spawn" name="place_of_spawn">
+						<option value="1">Віндхельм</option>
+						<option value="2">Рівервуд</option>
+						<option value="3">Маркарт</option>
+						<option value="4">Вайтран</option>
+					</select>
+				</td>
+
+			</tr>
+			<tr>
+				<td>
+					Додатково:
+				</td>
+				<td>
+					<input type="checkbox" id="additional_hardcore" name="additional_hardcore">
+					<label for="additional_hardcore">Режим Хардкор</label>
+					<input type="checkbox" id="additional_need_of_eat" name="additional_need_of_eat">
+					<label for="additional_need_of_eat">Потреба в їжі</label>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<label for="hero_description">Короткий опис Героя:</label> <br>
+					<textarea id="hero_description" name="hero_description" required placeholder="Короткий опис вашого героя" ></textarea>
+				</td>
+				
+			</tr>
+			<tr>
+				<td colspan="2">
+					<button type="submit">На пошук пригод!</button>
+				</td>
+			</tr>
+		</table>
+	</form>	
+	</div>
+
+</body>
+</html>

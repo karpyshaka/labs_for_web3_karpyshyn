@@ -1,0 +1,26 @@
+.zagolovok {
+	text-align: center;
+}
+
+th, td, tr, table{
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+table {
+	width: 50%;
+}
+#name {
+	width: 80%;
+}
+
+
+textarea {
+	width: 90%;
+	height: 100px;
+}
+.main {
+	margin-left: 30%;
+	margin-right: auto;
+	}
